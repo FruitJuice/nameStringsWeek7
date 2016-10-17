@@ -36,14 +36,12 @@ int main()
 
 
 
-	i = 0;
-	j = 0;
 
 	printf("\n");
 
 	//Detects the last name from names and inserts it inside lastName
 	puts("SURNAMES:");
-	for (i = 0; i < 10; i++)
+	for (i = 0, j = 0; i < 10; i++)
 	{
 		while (names[i][j] != ' ') //checking for a space and increasing j by 1 until a space is found
 			j++;
