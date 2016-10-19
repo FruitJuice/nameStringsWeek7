@@ -23,7 +23,7 @@ int main()
 		if (names[i][j] == ' ') //when a space is found \0 is iserted in that same space in firstName to end that string
 		{
 			firstNames[i][j] = '\0';
-			puts(firstNames[i]);
+			puts(firstNames[i]); //prints firstname to console before finding the next name
 			i++;
 			j = 0; //resetting for next string
 		}
@@ -51,8 +51,7 @@ int main()
 			v++;
 			j++;
 		}
-		lastNames[i][v] = '\0'; //ending the string
-		puts(lastNames[i]);
+		puts(lastNames[i]); //prints surname to console
 		v = 0;
 		j = 0;
 	}
